@@ -8,9 +8,27 @@
 
 /*----------------------------Header*/
 
+
 #logo {
     font-family: "Raleway";
     color: black;
     letter-spacing: 5px;
     padding: 25px 50px;
+    text-decoration: none;
+}
+
+#menu {
+    font-family: "Raleway";
+    letter-spacing: 5px;
+    padding: 30px 40px;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Idea and code taken from Love Running Project and modified*/ 
+#menu a:hover {
+  border-bottom: 2px solid #777777
 }
