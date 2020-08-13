@@ -50,3 +50,24 @@ body {
     padding: 20px 40px;
     font-size: 30px;
 }
+
+
+/*----------------------------Hero Image Section*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+
+}
+
+/* Code used from Love Running Project*/ 
+#hero-outer {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
