@@ -5,6 +5,9 @@
   padding: 0;
   border: 0;
 }
+
+/*----------------------------Colours*/
+
 body {
     background-color: black;
 }
@@ -13,7 +16,7 @@ body {
 
 
 #logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     color: rgb(167, 9, 9);
     letter-spacing: 5px;
     padding: 25px 50px;
@@ -21,7 +24,7 @@ body {
 }
 
 #menu {
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
     letter-spacing: 5px;
     padding: 30px 20px;
 }
@@ -73,7 +76,7 @@ body {
 /* Idea from Love Running Project but modified*/
 #overlay-quote {
     font-size: 100%;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     letter-spacing: 1px;
     width: 400px;
     height: 160px;
@@ -88,5 +91,23 @@ body {
 }
 
 
+/*----------------------------Contact Form*/
 
+/*#contact-form {
+    align: center;
+}*/
 
+.contact-us h2 {
+    font-family: "Raleway", sans-serif;
+    color: #D3D3D3;
+}
+
+.contact-us h5 {
+    font-family: "Raleway", sans-serif;
+    color: #D3D3D3;
+}
+
+.contact-button {
+    font-family: "Raleway", sans-serif;
+    color: #D3D3D3;
+}

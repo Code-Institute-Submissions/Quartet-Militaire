@@ -23,7 +23,7 @@
                                 <a href="index.html"><span>Home</span></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href=""><span>Contact</span></a>
+                                <a href="contact.html"><span>Contact</span></a>
                             </li>
                             <li class="list-inline-item">
                                 <a href=""><span>Media</span></a>
@@ -35,29 +35,41 @@
         </div>
     </header>
     <section>
-    <!--Hero Image-->
-        <div id="hero-outer" class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <img id="hero-image" src="assets/images/joel-wyncott-WYiIkQFclA4-unsplash.jpg" alt="">
-                </div>            
+    <!--Contact Form-->
+<!--Code not my own for contact form. https://codepen.io/SeanWhelan/pen/avMWqQ Have added modifications and custom css-->
+  <div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div id="contact-form" class="col-sm-8 col-sm-offset-2">
+            <div class="contact-us text-center">
+              <h2>Contact us today!</h2>
+              <h5>We'd love to hear from you.</h5>
             </div>
-            <div id="overlay-quote" class="div">
-                <p>"Wonderful musicians, professional and very organised - highly recommended! 
-                Thank you for making our function so successful."
-                </p>
-            </div>
+            <form method="post" data-form-title="CONTACT US">
+              <input type="hidden" data-form-email="true">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-lg btn-danger text-uppercase contact-button">Send Message</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-6">
-                
-                </div>
-            </div>
-        </div>
-         
-        
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
     <!--Footer-->
     <footer class="container-fluid">
         <div class="row">
