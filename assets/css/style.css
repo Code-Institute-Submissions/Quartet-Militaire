@@ -57,24 +57,42 @@ body {
 
 /*----------------------------Hero Image Section*/
 
-#hero-image {
-    height: 600px;
+
+.container-fluid {
     width: 100%;
-    position: relative;
+    background-color: red;
 }
 
-/* Code used from Love Running Project*/ 
-#hero-outer {
-    height: 600px;
-    width:100%;
+.hero-image {
+    background: url(../images/joel-wyncott-WYiIkQFclA4-unsplash.jpg) no-repeat fixed center;
+    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+.card-quote {
+    font-family: "Raleway";
+    
+}
+
+    /*background: url(../images/joel-wyncott-WYiIkQFclA4-unsplash.jpg) no-repeat fixed center;
     overflow: hidden;
     position: relative;
     padding-right: 0px;
     padding-left: 0px;
-}
 
 /* Idea from Love Running Project but modified*/
-#overlay-quote {
+/*#overlay-quote {
     font-size: 100%;
     font-family: "Raleway", sans-serif;
     letter-spacing: 1px;
@@ -88,7 +106,7 @@ body {
     top: 320px;
     left: 15px;
     position: absolute;
-}
+}*/
 
 
 /*----------------------------Contact Form*/
