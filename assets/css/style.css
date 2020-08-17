@@ -30,7 +30,7 @@ body {
 }
 
 #menu a {
-    color:#eeeeee;
+    color:#fafafa;
     text-decoration: none;
     padding: 10px 0px;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .social-links li a i {
-    color: #eeeeee;
+    color: #fafafa;
     height: 35px;
     width: 35px;
     padding: 20px 40px;
@@ -60,12 +60,10 @@ body {
 
 .container-fluid {
     width: 100%;
-    background-color: red;
 }
 
 .hero-image {
     background: url(../images/joel-wyncott-WYiIkQFclA4-unsplash.jpg) no-repeat fixed center;
-    margin-top: 20px;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -80,34 +78,13 @@ body {
     -ms-flex-pack: center;
 }
 
-.card-quote {
-    font-family: "Raleway";
-    
+.card {
+    background-color: #fafafa;
 }
 
-    /*background: url(../images/joel-wyncott-WYiIkQFclA4-unsplash.jpg) no-repeat fixed center;
-    overflow: hidden;
-    position: relative;
-    padding-right: 0px;
-    padding-left: 0px;
-
-/* Idea from Love Running Project but modified*/
-/*#overlay-quote {
-    font-size: 100%;
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 1px;
-    width: 400px;
-    height: 160px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    background-color: rgba(241, 109, 107, .7);
-    bottom: 30px; 
-    top: 320px;
-    left: 15px;
-    position: absolute;
-}*/
-
+.card-quote {
+    font-family: "Raleway";
+}
 
 /*----------------------------Contact Form*/
 
