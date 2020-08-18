@@ -24,7 +24,7 @@ body {
 }
 
 #menu {
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     letter-spacing: 5px;
     padding: 30px 20px;
 }
@@ -88,21 +88,29 @@ body {
 
 /*----------------------------Contact Form*/
 
-/*#contact-form {
-    align: center;
-}*/
+.contact-form {
+   
+}
+    
 
 .contact-us h2 {
     font-family: "Raleway", sans-serif;
-    color: #D3D3D3;
+    color: #fafafa;
 }
 
 .contact-us h5 {
     font-family: "Raleway", sans-serif;
-    color: #D3D3D3;
+    color: #fafafa;
 }
 
 .contact-button {
     font-family: "Raleway", sans-serif;
-    color: #D3D3D3;
+    color: #fafafa;
+    
+}
+
+@media screen and (min-width: 768px) {
+  .contact-form {
+    margin: 2% 10% 5% 16%;
+  }
 }
