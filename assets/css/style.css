@@ -12,6 +12,13 @@ body {
     background-color: black;
 }
 
+/*----------------------------General*/
+/* CSS for mobileHide taken from http://docs.minionmade.com/developer-tools/show-hide-specific-content-on-mobile-devices*/
+
+ @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
 /*----------------------------Header*/
 
 .navbar .navbar-brand {
@@ -19,41 +26,6 @@ body {
     font-weight: 400;
     color: rgb(167, 9, 9);
     letter-spacing: 3px;
-}
-
-.navbar .navbar-nav {
-    margin: 0 auto;
-}
-
-.navbar .navbar-item a {
-    color: #fafafa;
-}
-
-
-/*#logo {
-    font-family: "Raleway", sans-serif;
-    color: rgb(167, 9, 9);
-    letter-spacing: 5px;
-    text-decoration: none;
-    
-}*/
-
-#menu {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    letter-spacing: 5px;
-    padding: 30px 20px;
-}
-
-#menu a {
-    color:#fafafa;
-    text-decoration: none;
-    padding: 10px 0px;
-}
-
-/* Idea and code taken from Love Running Project and modified*/ 
-#menu a:hover {
-  border-bottom: 1px solid #eeeeee;
 }
 
 /*----------------------------Footer*/
@@ -73,7 +45,6 @@ body {
     padding: 20px 40px;
     font-size: 30px;
 }
-
 
 /*----------------------------Hero Image Section*/
 
@@ -110,30 +81,38 @@ body {
 }
 
 /*----------------------------Contact Form*/
-
-.contact-form {
-   
-}
     
-
-.contact-us h2 {
+.contact-us h3 {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 45px 0px 0px 0px;
+    
 }
 
-.contact-us h5 {
+.contact-us h6 {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0px 0px 55px 0px;
 }
 
 .contact-button {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
-    
+    letter-spacing: 3px;
 }
 
 @media screen and (min-width: 768px) {
   .contact-form {
     margin: 2% 10% 5% 18%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-us h3 {
+    padding: 45px 0px 35px 0px;
   }
 }

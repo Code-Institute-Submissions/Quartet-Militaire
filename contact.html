@@ -10,29 +10,25 @@
 </head>
 <body>
     <header>
-        <div class="row no-gutters">
-            <a href="index.html" id="logo" class="col-md-8">
-                <h1 class="text-uppercase">Quartet Militaire</h1>
-            </a>
-            <div class="col-md-4">
-            <!--Navbar-->
-                <nav class="row no-gutters navbar">
-                    <div class="col">
-                        <ul id="menu" class="list-inline">
-                            <li class="list-inline-item"> 
-                                <a href="index.html"><span>Home</span></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="contact.html"><span>Contact</span></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href=""><span>Media</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark mynav">
+            <a class="navbar-brand text-uppercase" href="index.html">Quartet Militaire</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Media</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </header>
     <section>
     <!--Contact Form-->
@@ -43,10 +39,10 @@
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2 contact-form text-center">
             <div class="contact-us text-center">
-              <h2>Contact us today!</h2>
-              <h5>We'd love to hear from you.</h5>
+              <h3>Contact us today!</h3>
+              <h6 class="mobileHide">We'd love to hear from you.</h6>
             </div>
-            <form method="post" data-form-title="CONTACT US">
+            <form class="form-style" method="post" data-form-title="CONTACT US">
               <input type="hidden" data-form-email="true">
               <div class="form-group">
                 <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
@@ -69,7 +65,7 @@
       </div>
     </div>
   </div>
-</section>
+    </section>
     <!--Footer-->
     <footer class="container-fluid footer-container">
         <div class="row">
