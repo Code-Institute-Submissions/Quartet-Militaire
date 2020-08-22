@@ -21,11 +21,27 @@ body {
 
 /*----------------------------Header*/
 
-.navbar .navbar-brand {
+.nav {
+  background-color: black;
+}
+
+.nav-link {
+    letter-spacing: 0.3rem;
     font-family: "Raleway", sans-serif;
+    color: #fafafa;
+}
+
+/*not working for me?*/
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+.navbar .navbar-brand {
+    font-family: "Raleway", sans-serif;;
     font-weight: 400;
     color: rgb(167, 9, 9);
-    letter-spacing: 3px;
+    letter-spacing: 0.2rem;
 }
 
 /*----------------------------Footer*/
@@ -85,7 +101,7 @@ body {
 .contact-us h3 {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
     text-transform: uppercase;
     padding: 45px 0px 0px 0px;
     
@@ -94,7 +110,7 @@ body {
 .contact-us h6 {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
     text-transform: uppercase;
     padding: 0px 0px 55px 0px;
 }
@@ -102,7 +118,7 @@ body {
 .contact-button {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
 }
 
 @media screen and (min-width: 768px) {
