@@ -93,29 +93,24 @@ body {
     font-family: "Raleway";
     font-weight: 200;
     text-align: right;
+    color: #696969;
 }
 
 /*----------------------------About/Wedding Section*/
 
-.about-wedding-general {
-    background-color: 
-}
-
 .card-general {
     font-family: "Raleway", sans-serif;
-    width: 50vw;
     background-color: #fafafa;
     color: #696969;
     font-weight: 400;
-    
 }
 
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .card-general {
-    width: 50%;
-    
+      margin: 0 auto;
+    width: 50vw;
   }
-}*/ 
+}
 
 /*----------------------------Contact Form*/
     
