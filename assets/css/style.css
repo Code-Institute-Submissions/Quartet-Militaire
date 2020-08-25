@@ -100,14 +100,18 @@ body {
 
 .card-general {
     font-family: "Raleway", sans-serif;
-    background-color: #fafafa;
+    background-color: lightgray;
     color: #696969;
     font-weight: 400;
 }
 
-@media screen and (min-width: 768px) {
+.card-title {
+    color: rgb(167, 9, 9);
+}
+
+@media screen and (min-width: 1025px) {
   .card-general {
-      margin: 0 auto;
+    margin: 0 auto;
     width: 50vw;
   }
 }
