@@ -21,19 +21,14 @@ body {
 
 /*----------------------------Header*/
 
-.nav {
-  background-color: black;
+.bg-black {
+    background-color: black !important;
 }
 
 .nav-link {
     letter-spacing: 0.3rem;
     font-family: "Raleway", sans-serif;
     color: #fafafa;
-}
-
-/*not working for me?*/
-.navbar-toggler-icon {
-    color: white;
 }
 
 .navbar .navbar-brand {
@@ -107,7 +102,9 @@ body {
 
 .card-title {
     color: rgb(167, 9, 9);
+
 }
+
 
 @media screen and (min-width: 1025px) {
   .card-general {
