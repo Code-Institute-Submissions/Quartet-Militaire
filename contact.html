@@ -1,79 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quartet Militaire</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-    <header>
-        
-    </header>
-    <section>
-    <!--Contact Form-->
-<!--Code not my own for contact form. https://codepen.io/SeanWhelan/pen/avMWqQ Have added modifications and custom css-->
-  <div>
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2 contact-form text-center">
-            <div class="contact-us text-center">
-              <h3>Contact us today!</h3>
-              <h6 class="mobileHide">We'd love to hear from you.</h6>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quartet Militaire</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+        <!--Navbar-->
+            <nav class="navbar nav navbar-expand-lg navbar-dark bg-black fixed-top">
+                <div class="container">
+                    <!--Navbar Brand-->
+                    <a class="navbar-brand text-uppercase" href="index.html">Quartet Militaire</a>
+                    <!--Navbar Burger Button-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Navbar Burger Button Content-->
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="media.html">Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+        </header>
+        <section>
+        <!--Contact Form-->
+        <!--Code not my own for contact form. Credit to: https://codepen.io/SeanWhelan/pen/avMWqQ I have added modifications and custom css-->
+            <div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-8 col-sm-offset-2 contact-form text-center">
+                                <div class="contact-us text-center">
+                                    <h3>Contact us today!</h3>
+                                    <h6 class="mobileHide">We'd love to hear from you</h6>
+                                </div>
+                                <form class="form-style" method="post" data-form-title="CONTACT US">
+                                <input type="hidden" data-form-email="true">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-lg btn-danger text-uppercase contact-button">Send Message</button>
+                                </div>
+                                </form>
+                            </div>
+                         </div>
+                    </div>
+                </div>
             </div>
-            <form class="form-style" method="post" data-form-title="CONTACT US">
-              <input type="hidden" data-form-email="true">
-              <div class="form-group">
-                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
-              </div>
-              <div class="form-group">
-                <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
-              </div>
-              <div>
-                <button type="submit" class="btn btn-lg btn-danger text-uppercase contact-button">Send Message</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    </section>
-    <!--Footer-->
-    <footer class="container-fluid footer-container">
-        <div class="row">
-            <div class="col-sm-12 d-flex justify-content-center" >
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#"> 
-                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#"> 
-                            <i class="fa fa-youtube-square" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#"> 
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
+        </section>
+        <!--Footer-->
+        <footer class="container-fluid footer-container">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-center" >
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#"> 
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#"> 
+                                <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#"> 
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </footer>
-</body>
+            </div>
+        </footer>
+    </body>
 </html>
