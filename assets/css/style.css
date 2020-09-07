@@ -50,10 +50,6 @@ body {
     padding: 0;
 }
 
-.social-links {
-    padding: TBC
-}
-
 .social-links li a i {
     color: #fafafa;
     height: 35px;
@@ -89,7 +85,6 @@ body {
     background-color: #fafafa;
 }
 
-/*Not working how I'd like yet*/
 .card-quote {
     font-family: "Raleway";
     font-weight: 200;
@@ -131,7 +126,6 @@ body {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
     letter-spacing: 0.3rem;
-    text-transform: uppercase;
     padding: 0px 0px 55px 0px;
 }
 
@@ -139,6 +133,8 @@ body {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
     letter-spacing: 0.3rem;
+    background-color:rgb(167, 9, 9) !important;
+    border-color:rgb(167, 9, 9)!important;
 }
 
 @media screen and (min-width: 768px) {
@@ -149,6 +145,12 @@ body {
 
 @media screen and (max-width: 765px) {
   .contact-us h3 {
-    padding: 45px 0px 35px 0px;
+    padding: 70px 0px 35px 0px;
   }
+}
+
+/*----------------------------Media*/
+
+.media-video {
+
 }
