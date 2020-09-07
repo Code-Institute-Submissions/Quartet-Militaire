@@ -34,7 +34,7 @@ One specific target audience of Quartet Militaire would be couples aged 25-40 lo
 #### Contact Page:
 * A contact form with space for name, email, telephone and a message with button to send. The colours have been amended to tie in with the theme of the site. There is a clear button for users to press to send the message.
 #### Media Page:
-* Embedded YouTube video of a string quartet. Users are able to control actions on video and it is not set to autoplay to create a good user experience. 
+* Embedded YouTube video of a string quartet. Users are able to control actions on video to create a good user experience. 
 #### Features Left to Implement:
 * A download button in the navbar and footer, which takes users to a new browser tab where they can view a list of individual musical pieces in different genre categories. This would provide users with a visual idea of musical choices that they can read through and see if any of their preferred musical ideas are present. 
 * A more comprehensive wedding article building on the one already featured and moved to a separate page. This page would then be able to offer more photographs of Quartet Militaire at a wedding and provide further text explaining a typical run down of services provided by the quartet at weddings. This would be a useful feature to users because when paying for services at a wedding you want to know exactly what you are getting, what the expectation is of length of performance in the case of a string quartet.
