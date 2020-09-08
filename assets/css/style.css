@@ -19,6 +19,8 @@ body {
    and (min-device-width : 320px)
    and (max-device-width : 480px){  .mobileHide { display: none;}}
 
+/* Borrowed css finishes from http://docs.minionmade.com/developer-tools/show-hide-specific-content-on-mobile-devices*/
+
 /*----------------------------Header*/
 
 .bg-black {
@@ -79,10 +81,15 @@ body {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
 }
 
 .card {
     background-color: #fafafa;
+    width: 50vw;
 }
 
 .card-quote {
