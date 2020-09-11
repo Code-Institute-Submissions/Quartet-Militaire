@@ -4,7 +4,7 @@ Quartet Militaire are a professional UK based string quartet providing tailored 
 The website will provide information on how to contact Quartet Militaire and what their musical specialism is. A stand out hero image and video of the ensemble will entice users to buy their services and provide an idea to users of the type of music available to them.
 Users will be able to access a contact form to easily send a message to Quartet Militaire in order to make specific enquires and check their availability.
 
-A link to the website can be found here <!-- Add live link here-->
+A link to the website can be found [here](https://telesia.github.io/Quartet-Militaire/)
 
 ### UX
 The Quartet Militaire website is for users who are looking to hire a string quartet. They may be looking for musical services for a personal function such as a wedding, christening or party. Equally, music could be required for a corporate occasion, concert or charity event. These are just some generic examples of where a string quartet could be used. 
@@ -13,28 +13,30 @@ One specific target audience of Quartet Militaire would be couples aged 25-40 lo
 
 #### As a user I want to:
 * listen and/or view an example of Quartet Militaire performing to be impressed by their style and musical standard.
-* view an image/video of them to see how they would look if hired at an event to check level of professional output.
+* view an image/video of them to see how they would look if hired at an event to check the level of professional output.
 * learn about the string quartet’s location in order to know that they are local, or willing to travel to, the location of event required at.
 * easily contact the string quartet to find out availability for a specific date and discuss any individual needs.
-* view video/audio of the string quartet to see if it is suitable for user's function and check the quality of the musical performance.
+* view video/audio of the string quartet to see if it is suitable for a user's function and check the quality of the musical performance.
 * view approximate package costs to see if the service is affordable for a user budget.
 * view testimonials from satisfied customers to lend authenticity to the services of the string quartet.
-* be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the quartet and ultimately buy their services as an end result. 
-* be able to instinctively navigate the website so I can find the information I require in an efficient manner. 
+* be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the quartet and ultimately buy their services as a result. 
+* be able to instinctively navigate the website to find the information required efficiently. 
 
 ### Features
 #### All website pages:
 * A navbar features across all pages. It shows the Quartet Militaire brand logo on the left and then on the right is the 3 pages in order of user priority: home, contact, media. The navbar collapses into a hamburger button when viewed on smaller screen devices.
 * A footer that includes social media links to Facebook, YouTube and Instagram. It has been purposefully designed in a minimalist fashion for full user impact. 
 #### Home Page:
-* A large ‘hero’ image of someone playing a violin. It is a stock image but high quality and artsy to give a first impression of a professional musician. The colour choice of the ‘hero’ image also ties in with the black background.
+* A large ‘hero’ image of someone playing the violin. It is a high quality, modren and artsy stock image to give users the impression of a professional musician. The colour choice of the ‘hero’ image also ties in with the black background.
 * A floated quotation from a satisfied customer draws attention to the services Quartet Militaire provide and below is a quick press contact button to lead the user straight to the contact page. This button is featured because of a mobile first design mindset. It makes the contact page easy to navigate to when first landing on the website on any device.
 * The about section features gives an overall biography of Quartet Militaire.
-* The wedding section provides key information when hiring the string quartet specifically for a wedding.
+* The wedding section provides key information when hiring the string quartet specifically for a wedding. It sets out a minimum package price for users as this was an important piece of information when setting out user stories.
 #### Contact Page:
-* A contact form with space for name, email, telephone and a message with button to send. The colours have been amended to tie in with the theme of the site. There is a clear button for users to press to send the message.
+* A contact form with space for name, email, telephone and a message with a button to send. The colours have been amended to tie in with the theme of the site. There is an obvious button for users to send the message.
 #### Media Page:
-* Embedded YouTube video of a string quartet. Users are able to control actions on video to create a good user experience. 
+* Embedded YouTube video of a string quartet. Please be aware this is not Quartet Militaire but shows an example of music for this project's purposes. Users can control actions on video to create an experience. 
+* Subtitle on media page is hidden on smaller screen devices. This is to allow a quick and easy view of the contact page and not take up too much 'retail' space so users do not have to scroll down to find the form.
+
 #### Features Left to Implement:
 * A download button in the navbar and footer, which takes users to a new browser tab where they can view a list of individual musical pieces in different genre categories. This would provide users with a visual idea of musical choices that they can read through and see if any of their preferred musical ideas are present. 
 * A more comprehensive wedding article building on the one already featured and moved to a separate page. This page would then be able to offer more photographs of Quartet Militaire at a wedding and provide further text explaining a typical run down of services provided by the quartet at weddings. This would be a useful feature to users because when paying for services at a wedding you want to know exactly what you are getting, what the expectation is of length of performance in the case of a string quartet.
@@ -45,6 +47,7 @@ One specific target audience of Quartet Militaire would be couples aged 25-40 lo
 * HTML5
 
     The project uses HTML5 as the main language of the website.
+
 * CSS3
 
 
@@ -57,22 +60,35 @@ One specific target audience of Quartet Militaire would be couples aged 25-40 lo
 * GitHub
 
     The project uses GitHub to store its code.
+
 * Gitpod
 
     The project uses Gitpod as the IDE.
+
+* Git
+
+Used within Gitpod as the version control system.
+
 * Balsamiq
 
     The project uses Balsamiq to create wireframes.
 
+* Google Fonts
+
+Used to import the font style.
+
 ### Testing
 
 ### Deployment
+
 
 ### Credits
 
 **Code**
 
 Code credit to Sean Whelan for the contact form. Taken from https://codepen.io/SeanWhelan/pen/avMWqQ 
+
+Code credit for mobileHide class and css to http://docs.minionmade.com/developer-tools/show-hide-specific-content-on-mobile-devices 
 
 **Content**
 
@@ -81,7 +97,9 @@ All other content is my own.
 
 **Media**
 
-* The Youtube video was obtained from The Wedding Quartet's page at www.youtube.com 
-* The image on the homepage was obtained from www.shutterstock.com Credit to: 
+* The Youtube video was obtained from The Wedding Quartet's page at https://www.youtube.com/embed/7QIHJBi2os8
+* The image on the homepage was obtained from https://unsplash.com/ Credit to: Joel Wyncott
 
 **Acknowledgements**
+
+Thank you to my mentor Spencer Barriball for his help and assistance throughout the project. In particular, he helped me add Javascript functionality to my burger button and checked through the features for responsiveness.

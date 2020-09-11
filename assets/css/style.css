@@ -13,12 +13,13 @@ body {
 }
 
 /*----------------------------General*/
-/* CSS for mobileHide taken from http://docs.minionmade.com/developer-tools/show-hide-specific-content-on-mobile-devices*/
+/* CSS for mobileHide taken and adapted from http://docs.minionmade.com/developer-tools/show-hide-specific-content-on-mobile-devices*/
 
-/*Showing CSS Validator error so need to change*/
- @media only screen
-   and (min-device-width : 320px)
-   and (max-device-width : 480px){  .mobileHide { display: none;}}
+ @media screen and (max-width: 770px)
+   {  .mobileHide { 
+       display: none;
+       }
+   }
 
 /* Borrowed css finishes from http://docs.minionmade.com/developer-tools/show-hide-specific-content-on-mobile-devices*/
 
@@ -129,6 +130,7 @@ body {
 
 .contact-form {
     margin: 0 auto;
+
 }
 
 .contact-us h3 {
