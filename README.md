@@ -4,7 +4,7 @@ Quartet Militaire are a professional UK based string quartet providing tailored 
 The website will provide information on how to contact Quartet Militaire and what their musical specialism is. A stand out hero image and video of the ensemble will entice users to buy their services and provide an idea to users of the type of music available to them.
 Users will be able to access a contact form to easily send a message to Quartet Militaire in order to make specific enquires and check their availability.
 
-A link to the website can be found here <!-- Add live linke here>
+A link to the website can be found here <!-- Add live link here-->
 
 ### UX
 The Quartet Militaire website is for users who are looking to hire a string quartet. They may be looking for musical services for a personal function such as a wedding, christening or party. Equally, music could be required for a corporate occasion, concert or charity event. These are just some generic examples of where a string quartet could be used. 

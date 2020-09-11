@@ -15,6 +15,7 @@ body {
 /*----------------------------General*/
 /* CSS for mobileHide taken from http://docs.minionmade.com/developer-tools/show-hide-specific-content-on-mobile-devices*/
 
+/*Showing CSS Validator error so need to change*/
  @media only screen
    and (min-device-width : 320px)
    and (max-device-width : 480px){  .mobileHide { display: none;}}
@@ -48,7 +49,7 @@ body {
 /*----------------------------Footer*/
 
 .footer-container {
-    margin-top: 2%;
+    margin: 2% auto;
     padding: 0;
 }
 
@@ -60,7 +61,7 @@ body {
     font-size: 30px;
 }
 
-/*----------------------------Hero Image Section*/
+/*----------------------------Hero Image/Customer Quote Section*/
 
 
 .container-fluid {
@@ -89,7 +90,6 @@ body {
 
 .card {
     background-color: #fafafa;
-    width: 50vw;
 }
 
 .card-quote {
@@ -126,7 +126,11 @@ body {
 }
 
 /*----------------------------Contact Form*/
-    
+
+.contact-form {
+    margin: 0 auto;
+}
+
 .contact-us h3 {
     font-family: "Raleway", sans-serif;
     color: #fafafa;
