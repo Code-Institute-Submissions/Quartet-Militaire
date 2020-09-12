@@ -48,9 +48,24 @@ One specific target audience of Quartet Militaire would be couples aged 25-40 lo
 
 ## Structure
 
+I wanted the structure of the website to reflect a user's prior experience and researched other string quartet websites in order to 
+ascertain current structure trends. Although, I found some were using one page scroller sites, most had a traditional navbar to different pages and I
+opted for this as Quartet Militaire are not marketing themselves as a trend led musical ensemble. 
+
+I have structured the site with:
+
+* a navbar to the right hand side and brand logo to the left as is familiar to users.
+* a collapsible navbar burger button for smaller devices to save space.
+* main written content in Bootstrap cards as I had a mobile first design in mind.
+* social media icons placed in the footer.
+
 ## Skeleton
 
-![Wireframes for homepage, contact and media pages](assets/wireframes/quartet_militaire_wireframes.pdf) 
+I designed wireframes for mobile, tablet and desktop using Balsamiq. 
+
+All three pages of the website are viewable in PDF using the following link: 
+
+![Wireframes for home page, contact page and media page](assets/wireframes/quartet_militaire_wireframes.pdf) 
 
 ## Surface
 
