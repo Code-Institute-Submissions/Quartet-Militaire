@@ -50,7 +50,7 @@ One specific target audience of Quartet Militaire would be couples aged 25-40 lo
 
 ## Skeleton
 
-![Wireframes for homepage, contact and media pages]() 
+![Wireframes for homepage, contact and media pages](assets/wireframes/quartet_militaire_wireframes.pdf) 
 
 ## Surface
 
