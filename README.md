@@ -1,29 +1,43 @@
 # Website for Quartet Militaire
 ## Code Institute Milestone Project 1: User-Centric Frontend Development
-Quartet Militaire are a professional UK based string quartet providing tailored music for your special occasion. I play in the string quartet myself, but it does not yet have a website, so I wanted to create one for my first milestone project. 
-The players in the string quartet all met whilst serving as military musicians and that is where the brand name grew out of. 
-The website will provide information on how to contact Quartet Militaire and what their musical specialism is. A stand out hero image and video of the ensemble will entice users to buy their services and provide an idea to users of the type of music available to them.
-Users will be able to access a contact form to easily send a message to Quartet Militaire in order to make specific enquires and check their availability.
+Quartet Militaire are a professional UK based string quartet providing tailored music for your special occasion. 
+I play in the string quartet myself, but it does not yet have a website, so I wanted to create one for my first 
+milestone project. 
+The players in the string quartet all met whilst serving as military musicians and that is where the brand name 
+grew out of. 
+The website will provide information on how to contact Quartet Militaire and what their musical specialism is.
+A stand out hero image and video of the ensemble will entice users to buy their services and provide an idea
+to users of the type of music available to them.
+Users will be able to access a contact form to easily send a message to Quartet Militaire in order to make 
+specific enquires and check their availability.
 
 A link to the website can be found [here](https://telesia.github.io/Quartet-Militaire/)
 
 ## UX
 ## Strategy 
 
-The Quartet Militaire website is for users who are looking to hire a string quartet. They may be looking for musical services for a personal function such as a wedding, christening or party. Equally, music could be required for a corporate occasion, concert or charity event. These are just some generic examples of where a string quartet could be used. 
-The website for Quartet Militaire will entice any user looking to hire a string quartet as within the field of music, although it is great to have a specific target audience, which I will describe below, you do not want to limit your horizons of being hired.
-One specific target audience of Quartet Militaire would be couples aged 25-40 looking for music for their wedding. These users will want to view clear information about how Quartet Militaire can fit into their occasion (price, willingness to travel, musical selection) so they can book an appropriate ensemble that fits their tastes and budget.
+The Quartet Militaire website is for users who are looking to hire a string quartet. They may be looking for 
+musical services for a personal function such as a wedding, christening or party. Equally, music could be 
+required for a corporate occasion, concert or charity event. These are just some generic examples of where a 
+string quartet could be used. 
+The website for Quartet Militaire will entice any user looking to hire a string quartet as within the field 
+of music, although it is great to have a specific target audience, which I will describe below, you do not 
+want to limit your horizons of being hired.
+One specific target audience of Quartet Militaire would be couples aged 25-40 looking for music for their 
+wedding. These users will want to view clear information about how Quartet Militaire can fit into their 
+occasion (price, willingness to travel, musical selection) so they can book an appropriate ensemble that 
+fits their tastes and budget.
 
 #### As a user I want to:
 * listen and/or view an example of Quartet Militaire performing to be impressed by their style and musical standard.
 * view an image/video of them to see how they would look if hired at an event to check the level of professional output.
-* learn about the string quartet’s location in order to know that they are local, or willing to travel to, the location of event required at.
+* learn about the string quartet’s location in order to know if they are local, or willing to travel to, the location of event required at.
 * easily contact the string quartet to find out availability for a specific date and discuss any individual needs.
-* view video/audio of the string quartet to see if it is suitable for a user's function and check the quality of the musical performance.
 * view approximate package costs to see if the service is affordable for a user budget.
 * view a repertoire list of musical pieces that the quartet can perform.
 * view testimonials from satisfied customers to lend authenticity to the services of the string quartet.
-* be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the quartet and ultimately buy their services as a result. 
+* be easily directed to any social media channels that can add additional viewing material to entice a user 
+to connect with the quartet and ultimately buy their services as a result. 
 * be able to instinctively navigate the website to find the information required efficiently. 
 
 ## Scope
@@ -77,7 +91,7 @@ Typography:
 
 I have chosen to use the Raleway font throughout the website.
 
-### Features
+## Features
 #### All website pages:
 * A navbar features across all pages. It shows the Quartet Militaire brand logo on the left and on the right the 3 pages 
 in order of user priority: home, contact and media. The navbar collapses into a hamburger button when viewed on smaller screen devices.
@@ -87,17 +101,19 @@ fashion for full user impact.
 * A large ‘hero’ image of someone playing the violin. A high quality, modern and artsy stock image to give users a first impression of
  a professional musician. 
 The colour choice of the ‘hero’ image also ties in with the black background.
-* A floated quotation from a satisfied customer draws attention to the services Quartet Militaire provide and below is a quick press
+* A floated quotation using a Bootstrap card from a satisfied customer draws attention to the services Quartet Militaire provide and below is a quick press
  contact button to lead the user straight to the contact page. The contact button is featured because of a mobile first design mindset. It 
  makes the contact page easy to navigate to when a user first lands on the website using any device.
-* The about section features gives an overall biography of Quartet Militaire.
-* The wedding section provides key information when hiring the string quartet specifically for a wedding. It sets out a minimum 
+* The about section uses a Bootstrap card and features gives an overall biography of Quartet Militaire.
+* The wedding section uses a Bootstrap card and provides key information when hiring the string quartet specifically for a wedding. It sets out a minimum 
 package price for users because this was an important piece of information for users when setting out the strategy.
 #### Contact Page:
-* A contact form with space for name, email, telephone and a message; with a button to send featured at the bottom of the form. 
-The colours have been amended to tie in with the colour scheme of the site. 
+* A Bootstrap contact form with space for name, email, telephone and a message; with a button to send featured at the bottom of the form. 
+* The name and email fields are required.
+* The email field must have the correct email format in order to submit.
+* The colours have been amended to tie in with the colour scheme of the site. 
 #### Media Page:
-* Embedded YouTube video of a string quartet. Please be aware this is not Quartet Militaire, but shows an example of live recorded music for 
+* An embedded YouTube video of a string quartet. Please be aware this is not Quartet Militaire, but shows an example of live recorded music for 
 this project's purposes. Users can control actions on the video to create a good user experience. 
 * Subtitle on media page is hidden on smaller screen devices. This is to allow a quick and easy view of the contact page and 
 not take up too much 'retail' space.
@@ -115,7 +131,7 @@ not take up too much 'retail' space.
 has taken stock imagery and borrowed media for the purposes of this project from Youtube.
 * Another webpage including a list of repertoire, which would be displayed in musical genres for a good user experience. 
 
-### Technologies Used
+## Technologies Used
 
 * HTML5
 
@@ -158,7 +174,75 @@ Used within Google Chrome to inspect pages to help solve any bugs and view respo
 
 Used to import the font style.
 
-### Testing
+## Testing
+### Automated Testing
+
+I used Google Chrome Developer Tools throughout the project. This was an invaluable resource to check how CSS changes would look.
+It was a particularly useful tool to have when checking for responsiveness on difference sized devices. In particular, when 
+checking the embedded video worked on smaller screen devices in horizontal view. Another way the Developer Tools were useful was for
+viewing the Bootstrap cards and contact form. I had used the Bootstrap responsive classed in order to make sure they filled the screen 
+on smaller devices for the best user experience.
+
+### Manual Testing
+
+#### Testing User Stories Write Up
+
+**I want to listen and/or view an example of Quartet Militaire performing to be impressed by their style and musical standard.**
+   
+and
+
+**I want to view an image/video of Quartet Militaire to see how they would look if hired at an event to check the level of professional output.**
+
+
+View Music Video:
+    
+1. Go to the Media page
+2. Try to play the video by clicking on the play button in centre of embedded video
+3. Youtube controls become viewable
+4. User can select video controls
+5. Try to pause video, change volume, mute, and full screen and all YouTube features are working
+
+**I want to learn about the Quartet Militaire's location in order to know if they are local, or willing to travel to, the location of my event**
+
+1. Click on Home page
+2. Scroll to About and Wedding sections
+3. User can read information, which tells them the string quartet are London based and willing to travel
+
+**I want to easily contact Quartet Militaire to find out availability for a specific date and discuss any individual needs.**
+
+1. Go to Contact page
+2. Contact form is instantly viewable on all screen sizes
+3. User can fill out name, email, telephone and a message and click 'send message' button to send
+4. Try to submit form without a valid name in text area and error message seen
+5. Try to submit email with an invalid email and form requires a correct email format including @ sign otherwise error message seen
+6. Telephone number and message are not required to send form as expected
+7. Fill in all form areas with correct information and no further error messages seen
+
+**I want to view approximate package costs of Quartet Militaire to see if the service is affordable for my budget.**
+
+1. Go to Home page
+2. Scroll to Wedding section and written content explains a minimum package price
+
+**I want to view a repertoire list of musical pieces that the quartet can perform.**
+
+1. This feature has not been implemented yet.
+
+**I want to view testimonials from satisfied customers to lend authenticity to the services of Quartet Militaire**
+
+1. Go to Home page
+2. Customer quote is the first thing you read within the main content of the page
+
+**Be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the quartet and ultimately buy their services as a result.** 
+
+1. The social media links are visually clear for users within the footer
+2. Try to click on Facebook icon and taken to Facebook homepage
+3. Try to click on YouTube icon and taken to YouTube homepage
+4. Try to click on Instagram icon and taken to Instagram homepage
+
+* be able to instinctively navigate the website to find the information required efficiently. 
+
+
+
 
 ### Deployment
 
@@ -183,4 +267,5 @@ All other content is my own.
 
 **Acknowledgements**
 
-Thank you to my mentor Spencer Barriball for his help and assistance throughout the project. In particular, he helped me add Javascript functionality to my burger button and checked through the features for responsiveness.
+Thank you to my mentor Spencer Barriball for his help and assistance throughout the project. 
+In particular, he helped me add Javascript functionality to my burger button and checked through the features for responsiveness.
