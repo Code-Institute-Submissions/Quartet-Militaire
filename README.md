@@ -175,15 +175,35 @@ Used within Google Chrome to inspect pages to help solve any bugs and view respo
 Used to import the font style.
 
 ## Testing
-### Automated Testing
 
-I used Google Chrome Developer Tools throughout the project. This was an invaluable resource to check how CSS changes would look.
+I used Google Chrome Developer Tools throughout the project. This was an invaluable resource to check how HTML and CSS changes would look.
 It was a particularly useful tool to have when checking for responsiveness on difference sized devices. In particular, when 
-checking the embedded video worked on smaller screen devices in horizontal view. Another way the Developer Tools were useful was for
-viewing the Bootstrap cards and contact form. I had used the Bootstrap responsive classed in order to make sure they filled the screen 
-on smaller devices for the best user experience.
+checking the embedded YouTube video worked on smaller screen devices in horizontal view. The video is best viewed in horizontal mode
+on tablet and mobile devices. Another way the Developer Tools were useful was for viewing the Bootstrap navbar, cards and contact form. 
+I had used the Bootstrap responsive classes in order to make sure they filled the screen on smaller devices. 
+I am happy with the mobile first design of the website and the way it looks clear and easy to read on a mobile sized device. With current trends
+in how users are viewing websites a mobile first design and good user experience on small devices is crucial.
+The website also lends itself to tablet sized devices. The only criticism for viewing on a tablet sized device
+is that the Contact page and Media page have some dead space that could be utilised. 
 
-### Manual Testing
+When I first viewed my Contact page using the Developer Tools in Chrome, I noticed that the heading and subheading for the page pushed the contact form 
+lower down on smaller device sizes. This meant that the user experience would be hindered and visually it was not appealing. I decided to use media 
+queries to hide the subheading for smaller devices to eliminate this visual issue.
+
+Overall, I am more happy with the way my website views on a mobile device than on some of the larger screen sizes. With mobile first design
+in mind, this is ok for my first project; in future I would like to develop the layout and design of the desktop view for the Quartet Militaire website.
+
+### W3C Validator Testing
+
+I used the W3C validators for both HTML and CSS to check my code. There were a few errors that I corrected during my project. I realise now
+that it would have been a useful exercise to log these errors and perhaps add to my write up as part of an ongoing testing routine. 
+
+### Web Browser and Device Testing
+
+I have viewed and tested my website on Google Chrome and Safari on both a Macbook Pro and a larger desktop screen and all features work fine and
+the viewing experience look ok.
+
+Aside from checking through all devices sizes using Google Developer Tools to view and test my website, I have also viewed and tested my site on an iPhone 7 and iPad (large).
 
 #### Testing User Stories Write Up
 
@@ -192,9 +212,6 @@ on smaller devices for the best user experience.
 and
 
 **I want to view an image/video of Quartet Militaire to see how they would look if hired at an event to check the level of professional output.**
-
-
-View Music Video:
     
 1. Go to the Media page
 2. Try to play the video by clicking on the play button in centre of embedded video
@@ -218,6 +235,13 @@ View Music Video:
 6. Telephone number and message are not required to send form as expected
 7. Fill in all form areas with correct information and no further error messages seen
 
+In addition, I added extra links on the Home page to the contact page within the content. I felt pointing users to the contact form was one
+of the most important features of the website. 
+
+1. Click on Home page
+2. Click contact us button below quote on Home page and internal site link works and takes you to the Contact page.
+3. Press on intergrated internal page links in About and Wedding sections and both take you to Contact page.
+
 **I want to view approximate package costs of Quartet Militaire to see if the service is affordable for my budget.**
 
 1. Go to Home page
@@ -234,14 +258,10 @@ View Music Video:
 
 **Be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the quartet and ultimately buy their services as a result.** 
 
-1. The social media links are visually clear for users within the footer
-2. Try to click on Facebook icon and taken to Facebook homepage
-3. Try to click on YouTube icon and taken to YouTube homepage
-4. Try to click on Instagram icon and taken to Instagram homepage
-
-* be able to instinctively navigate the website to find the information required efficiently. 
-
-
+The social media links are visually clear for users within the footer of all three pages. I tested each page seperately using the below steps:
+1. Try to click on Facebook icon and taken to Facebook homepage
+2. Try to click on YouTube icon and taken to YouTube homepage
+3. Try to click on Instagram icon and taken to Instagram homepage
 
 
 ### Deployment
