@@ -195,8 +195,9 @@ in mind, this is ok for my first project; in future I would like to develop the 
 
 ### W3C Validator Testing
 
-I used the W3C validators for both HTML and CSS to check my code. There were a few errors that I corrected during my project. I realise now
-that it would have been a useful exercise to log these errors and perhaps add to my write up as part of an ongoing testing routine. 
+I used the W3C validators for both HTML and CSS to check my code. On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along. I realise now
+that it would have been a useful exercise to log these errors and perhaps add to my write up as part of an ongoing testing routine. One last issue I came across was with my semantic html where
+I needed to use <main> instead of <section> on the Media page to elimate the need to have a heading present, which had flagged up as a warning.
 
 ### Web Browser and Device Testing
 
@@ -259,6 +260,7 @@ of the most important features of the website.
 **Be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the quartet and ultimately buy their services as a result.** 
 
 The social media links are visually clear for users within the footer of all three pages. I tested each page seperately using the below steps:
+
 1. Try to click on Facebook icon and taken to Facebook homepage
 2. Try to click on YouTube icon and taken to YouTube homepage
 3. Try to click on Instagram icon and taken to Instagram homepage
