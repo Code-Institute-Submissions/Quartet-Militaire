@@ -266,6 +266,36 @@ The social media links are visually clear for users within the footer of all thr
 
 ### Deployment
 
+The repository for the project is held on GitHub and was created by Sarah Telesia.
+The deployment involved using the settings within the Quartet Militaire repository to enable the website to be deployed as a GitHub page, which you can access
+at https://telesia.github.io/Quartet-Militaire/
+
+**Steps on how to clone the Quartet-Militaire repository from GitHub**
+
+I have learned and taken the information for the below clone steps from https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+There are two options:
+
+Clone using GitHub Desktop
+
+1. Open GitHub website and navigate to Quartet-Militaire repository on Sarah Telesia's GitHub at https://github.com/Telesia/Quartet-Militaire
+2. Above the list of files, click on Code button
+3. Scroll down to read 'Open with GitHub Desktop' and then click
+4. This will open GitHub Desktop (If this is your first time using GitHub Desktop follow the software download procedure)
+5. A pop up will ask you where you wish to clone the repository to on your local computer and then press clone
+6. You can now access the repository files in your chosen IDE
+
+Clone using Git 
+
+1. Open GitHub website and navigate to Quartet-Militaire repository on Sarah Telesia's GitHub at https://github.com/Telesia/Quartet-Militaire
+2. Above the list of files, click on Code button
+3. Click on the web URL viewable and copy
+4. Open the terminal
+5. Change the current working directory to the location where you want the cloned directory
+6. Type git clone, and then paste the URL you copied earlier
+7. Press Enter to create your local clone.6. 
+8. You can now access the repository files in your chosen IDE
+
 
 ### Credits
 
