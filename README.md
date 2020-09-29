@@ -1,4 +1,7 @@
 # Website for Quartet Militaire
+
+![Quartet Militaire](assets/images/quartet_militaire.jpg)
+
 ## Code Institute Milestone Project 1: User-Centric Frontend Development
 Quartet Militaire are a professional UK based string quartet providing tailored music for your special occasion. 
 I play in the string quartet myself, but it does not yet have a website, so I wanted to create one for my first 
@@ -220,6 +223,8 @@ and
 4. User can select video controls
 5. Try to pause video, change volume, mute, and full screen and all YouTube features are working
 
+![Quartet Militaire](assets/images/media_page_controls_user_story_screenshot.png)
+
 **I want to learn about the Quartet Militaire's location in order to know if they are local, or willing to travel to, the location of my event**
 
 1. Click on Home page
@@ -236,6 +241,8 @@ and
 6. Telephone number and message are not required to send form as expected
 7. Fill in all form areas with correct information and no further error messages seen
 
+![Quartet Militaire](assets/images/contact_form_user_story_screenshot.png)
+
 In addition, I added extra links on the Home page to the contact page within the content. I felt pointing users to the contact form was one
 of the most important features of the website. 
 
@@ -247,6 +254,8 @@ of the most important features of the website.
 
 1. Go to Home page
 2. Scroll to Wedding section and written content explains a minimum package price
+
+![Quartet Militaire](assets/images/price_wedding_info_user_story_screenshot.png)
 
 **I want to view a repertoire list of musical pieces that the quartet can perform.**
 
