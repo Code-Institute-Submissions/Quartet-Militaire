@@ -55,7 +55,6 @@ so have decided on the below features to be my initial minimum scope.
 * Satisfied customer quote
 * Responsive design
 
-
 ## Structure
 
 I wanted the structure of the website to reflect a user's prior experience and researched other string quartet websites in order to 
@@ -65,7 +64,7 @@ opted for this as Quartet Militaire are marketing themselves as a traditional mu
 I have structured the site with:
 
 * a navbar to the right hand side and brand logo to the left as is familiar to users.
-* a collapsible navbar burger button for smaller devices to save space.
+* a collapsible navbar hamburger icon for smaller devices to save space.
 * main written content in Bootstrap cards for a mobile first design.
 * social media icons placed in the footer.
 
@@ -133,6 +132,7 @@ not take up too much 'retail' space.
 * Good quality imagery and video of Quartet Militaire to be created and used throughout website. At present the website 
 has taken stock imagery and borrowed media for the purposes of this project from Youtube.
 * Another webpage including a list of repertoire, which would be displayed in musical genres for a good user experience. 
+* I would like to complete the contact form so that it has usable function once I have learned how to do this.
 
 ## Technologies Used
 
@@ -193,6 +193,10 @@ When I first viewed my Contact page using the Developer Tools in Chrome, I notic
 lower down on smaller device sizes. This meant that the user experience would be hindered and visually it was not appealing. I decided to use media 
 queries to hide the subheading for smaller devices to eliminate this visual issue.
 
+I used the Lighthouse tool to check over my website in the final tests. The red colour I had been using throughout my site was flagged up as not being 
+acceptable for accessibility. I have therefore changed the red colour in the final stages to a more suitable contrast red to the black background. This
+is something I would not have been aware of otherwise.
+
 Overall, I am more happy with the way my website views on a mobile device than on some of the larger screen sizes. With mobile first design
 in mind, this is ok for my first project; in future I would like to develop the layout and design of the desktop view for the Quartet Militaire website.
 
@@ -223,7 +227,7 @@ and
 4. User can select video controls
 5. Try to pause video, change volume, mute, and full screen and all YouTube features are working
 
-![Quartet Militaire](assets/images/media_page_controls_user_story_screenshot.png)
+![Quartet Militaire](assets/images/screenshots/media_page_controls_user_story_screenshot.png)
 
 **I want to learn about the Quartet Militaire's location in order to know if they are local, or willing to travel to, the location of my event**
 
@@ -241,7 +245,7 @@ and
 6. Telephone number and message are not required to send form as expected
 7. Fill in all form areas with correct information and no further error messages seen
 
-![Quartet Militaire](assets/images/contact_form_user_story_screenshot.png)
+![Quartet Militaire](assets/images/screenshots/contact_form_user_story_screenshot.png)
 
 In addition, I added extra links on the Home page to the contact page within the content. I felt pointing users to the contact form was one
 of the most important features of the website. 
@@ -255,7 +259,7 @@ of the most important features of the website.
 1. Go to Home page
 2. Scroll to Wedding section and written content explains a minimum package price
 
-![Quartet Militaire](assets/images/price_wedding_info_user_story_screenshot.png)
+![Quartet Militaire](assets/images/screenshots/price_wedding_info_user_story_screenshot.png)
 
 **I want to view a repertoire list of musical pieces that the quartet can perform.**
 
@@ -273,7 +277,6 @@ The social media links are visually clear for users within the footer of all thr
 1. Try to click on Facebook icon and taken to Facebook homepage
 2. Try to click on YouTube icon and taken to YouTube homepage
 3. Try to click on Instagram icon and taken to Instagram homepage
-
 
 ### Deployment
 
