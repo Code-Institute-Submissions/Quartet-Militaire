@@ -78,18 +78,22 @@ All three pages of the website are viewable in PDF using the following link:
 
 ## Surface
 
-Colours
+### Colours
 
 A dark, bold colour theme has been chosen to create a feel of an evening performance and to tie in with the military themed 
 branding of Quartet Militaire. 
 
 Black 
+
 White #fafafa
-Red rgb(167, 9, 9)
+
+Red #ef031a
+
 Grey #696969
+
 Lightgray
 
-Typography:
+### Typography
 
 I have chosen to use the Raleway font throughout the website.
 
@@ -179,7 +183,7 @@ Used to import the font style.
 
 ## Testing
 
-I used Google Chrome Developer Tools throughout the project. This was an invaluable resource to check how HTML and CSS changes would look.
+I used Google Chrome Developer Tools throughout the project. It was an invaluable resource to check how HTML and CSS changes would look.
 It was a particularly useful tool to have when checking for responsiveness on difference sized devices. In particular, when 
 checking the embedded YouTube video worked on smaller screen devices in horizontal view. The video is best viewed in horizontal mode
 on tablet and mobile devices. Another way the Developer Tools were useful was for viewing the Bootstrap navbar, cards and contact form. 
@@ -194,11 +198,11 @@ lower down on smaller device sizes. This meant that the user experience would be
 queries to hide the subheading for smaller devices to eliminate this visual issue.
 
 I used the Lighthouse tool to check over my website in the final tests. The red colour I had been using throughout my site was flagged up as not being 
-acceptable for accessibility. I have therefore changed the red colour in the final stages to a more suitable contrast red to the black background. This
+acceptable for accessibility. I have therefore changed the red colour in the final stages to a more suitable colour of red on the black background. This
 is something I would not have been aware of otherwise.
 
 Overall, I am more happy with the way my website views on a mobile device than on some of the larger screen sizes. With mobile first design
-in mind, this is ok for my first project; in future I would like to develop the layout and design of the desktop view for the Quartet Militaire website.
+in mind, this is ok for my first project; in future I would like to develop the layout and design of the desktop view for the website.
 
 ### W3C Validator Testing
 
